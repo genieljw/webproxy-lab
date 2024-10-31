@@ -932,7 +932,7 @@ ssize_t Rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen)
     if ((rc = rio_readlineb(rp, usrbuf, maxlen)) < 0)
 	unix_error("Rio_readlineb error");
     return rc;
-} 
+}
 
 /******************************** 
  * Client/server helper functions
